@@ -145,14 +145,14 @@ ul li a:hover::before{
 
 }
 
-#meusServiços{
+#meusServicos{
     width: 800px;
     height: 800px;
     background-color: #aeaace;
     margin-bottom: 50px;
 }
 
-.meusServiços{
+.meusServicos{
     text-align: center;
 }
 
@@ -266,35 +266,131 @@ button{
 
 @media only screen and (max-width: 600px) {
 
+
     body{
-        width: 100wh;
+        width: 100vh;
         margin-left: 0;
+        margin: 0;
     }
 
 
     #logo{
         align-items: center;
+        width: 390px;
+
+    }
+
+    #menu{
+        width: 390px;
     }
 
     #apresenta{
-        font-size: 30px;
+        font-size: 15px;
+        margin-left: 10px;
     }
 
     #imgLogo{
-        width: 600px;
+        width: 330px;
     }
 
-    #apresenta{
-        margin-left: 50px;
+    #homeTop{
+        width: 390px;
+    }
+
+    .homeTop{
+        width: 390px;
+    }
+
+
+    #imgTop{
+        width: 250px;
     }
 
     #servicesTitle{
-        font-size: 50px;
+        font-size: 30px;
+        width: 390px;
+    }
+
+    .servicesTitle{
+        width: 390px;
     }
 
     #services{
-        margin-left: 10px;
+        width: 390px;
+        margin: 0;
+        margin-top: 10px;
+        display: grid;
+        grid-auto-flow:row;
+        justify-content: center;
     }
+
+    ul li{
+        margin: 0 6px;
+    }
+
+    ul li a{
+        font-size: 16px;
+    }
+
+    .iconClass{
+        margin-top: 10px;
+    }
+
+    #meusServicos{
+        width: 390px;
+    }
+
+    #titleDepoimentos{
+        width: 390px;
+    }
+
+    #centro{
+        width: 390px;
+    }
+
+    .centro{
+        width: 0;
+    }
+
+    .fotoDepoi{
+        width: 0;
+    }
+
+    #tagDepoi{
+        width: 390px;
+        display: grid;
+        grid-auto-flow:row;
+        justify-content: center; 
+    }
+
+    .depoi{
+        width: 350px;
+        margin: 0;
+        
+    }
+
+    #forms{
+        width: 390px;
+    }
+
+    .forms input{
+        width: 350px;
+        height: 45px;
+    }
+
+    forms .select .sevices{
+        width: 350px;
+        height: 45px;
+    }
+
+   #whatsapp{
+    width: 390px;
+    justify-content: center;
+   }
+
+
+
+    
 
 
 }
