@@ -263,3 +263,38 @@ button{
     z-index: 9999;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        width: 100wh;
+        margin-left: 0;
+    }
+
+
+    #logo{
+        align-items: center;
+    }
+
+    #apresenta{
+        font-size: 30px;
+    }
+
+    #imgLogo{
+        width: 600px;
+    }
+
+    #apresenta{
+        margin-left: 50px;
+    }
+
+    #servicesTitle{
+        font-size: 50px;
+    }
+
+    #services{
+        margin-left: 10px;
+    }
+
+
+}
