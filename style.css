@@ -146,15 +146,20 @@ ul li a:hover::before{
 }
 
 #meusServicos{
-    width: 800px;
-    height: 800px;
-    background-color: #e3e2ef;
-    margin-bottom: 50px;
+  width: 800px;
+  height: 795px;
+  background-color: #c8c8e6;
+  margin-bottom: 50px;
+}
+
+#meusServicos h2{
+    background-color: #8a8ae3;
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 #fotoService{
-    width: 300px;
-    z-index: 9999;
+    text-align: center;
 }
 
 .meusServicos{
@@ -344,6 +349,17 @@ button{
     }
 
     #meusServicos{
+        width: 390px;
+        height: 600px;
+        margin-bottom: 50px;
+    }
+
+    #meusServicos h2{
+        margin-bottom: 20px;
+    }
+
+    #fotoService img{
+        text-align: center;
         width: 390px;
     }
 
