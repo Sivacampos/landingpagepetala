@@ -148,8 +148,13 @@ ul li a:hover::before{
 #meusServicos{
     width: 800px;
     height: 800px;
-    background-color: #aeaace;
+    background-color: #e3e2ef;
     margin-bottom: 50px;
+}
+
+#fotoService{
+    width: 300px;
+    z-index: 9999;
 }
 
 .meusServicos{
@@ -247,17 +252,19 @@ button{
     margin-top: 30px;
     height: 35px;
     width: 180px;
+    color:aliceblue;
     font-weight: bolder;
     font-size: 20px;
     border-radius: 5px;
     border: none;
-    background-color: #aeaace ;
+    background-color: #8a8ae3 ;
     cursor: pointer;
-}
+    }
 
 .whats{
     width: 50px;
     position: fixed;
+    margin-right: 38vh;
     bottom: 30px;
     right: 30px;
     z-index: 9999;
@@ -268,7 +275,7 @@ button{
 
 
     body{
-        width: 100vh;
+        width: 390px;
         margin-left: 0;
         margin: 0;
     }
@@ -378,17 +385,24 @@ button{
         height: 45px;
     }
 
-    forms .select .sevices{
+    .sevices{
         width: 350px;
         height: 45px;
     }
 
-   #whatsapp{
-    width: 390px;
-    justify-content: center;
-   }
+    #whatsapp{
+        width: 390px;
+    }
 
-
+    .whats{
+        width: 50px;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        left: 30px;
+        z-index: 1;
+        cursor: pointer;
+    }
 
     
 
