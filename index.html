@@ -39,11 +39,21 @@
                 <h2 id="servicesTitle">O que você procura?</h1>
             </div>
             <div id="services">
-                <div class="iconClass">
+                <div id="planoSaude" class="iconClass">
                     <a href=""><img class="serviceIcon" src="/icon/healthcare.png" alt=""></a>
                     <p class="textIcon">
                         Planos <br> de saúde
                     </p>
+                    <!-- <dialog id="dialog">
+                        <h3>Planos de saúde</h3>
+
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. A excepturi rem fuga. Aspernatur sed, facere a commodi distinctio neque? Eligendi ipsam tenetur dolorem eius similique quia veniam dolore, quisquam tempore!  
+                        </p>
+                        
+                        <button id="buttonClose1">Entendi!</button>
+                    </dialog> -->
+
                 </div>
                 <div class="iconClass">
                     <a href=""><img class="serviceIcon" src="/icon/team-management.png" alt=""></a>
@@ -120,25 +130,25 @@
 
             <div class="forms">
                 <label for="">Nome</label> <br>
-                <input type="text" name="name" id="name" class="form-control name" placeholder="&nbsp;Como quer ser chamado?" required>
+                <input type="text" name="name" id="name" class="form-control name" placeholder="Como quer ser chamado?" required>
             </div>
             <div class="forms">
                 <label for="">Telefone</label> <br>   
-                <input type="tel" name="name" id="name" class="form-control phone" placeholder="&nbsp;Qual seu melhor número?" required>
+                <input type="tel" name="name" id="name" class="form-control phone" placeholder="Qual seu melhor número?" required>
             </div>
             <div class="forms">
                 <label for="">Email</label> <br>     
-                <input type="email" name="name" id="name" class="form-control email" placeholder="&nbsp;Qual seu email?" required>
+                <input type="email" name="name" id="name" class="form-control email" placeholder="Qual seu email?" required>
             </div>
             <div class="forms">
                 <label for="">Seviços</label>  <br>
                 <select name="services" id="" class="sevices" >
-                    <option value="">Planos de saúde</option>
-                    <option value="">Planos de consórcios</option>
-                    <option value="">Planos odontológicos</option>
-                    <option value="">Seguros auto</option>
-                    <option value="">Seguros patrimoniais</option>
-                    <option value="">Seguros de vida</option>
+                    <option value="Planos de saúde">Planos de saúde</option>
+                    <option value="Planos de consórcios">Planos de consórcios</option>
+                    <option value="Planos odontológicos">Planos odontológicos</option>
+                    <option value="Seguros auto">Seguros auto</option>
+                    <option value="Seguros patrimoniais">Seguros patrimoniais</option>
+                    <option value="Seguros de vida">Seguros de vida</option>
                 </select>
             </div>
             <button type="submit" id="cotacao" onclick="sendwhatsapp();">Cotação</button>

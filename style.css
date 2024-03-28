@@ -276,6 +276,15 @@ button{
     cursor: pointer;
 }
 
+dialog{
+    position: relative;
+    width: 100vw;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(197, 235, 251);
+}
+
 @media only screen and (max-width: 600px) {
 
 
@@ -420,7 +429,9 @@ button{
         cursor: pointer;
     }
 
-    
-
-
+    dialog{
+        position: absolute;
+        width: 350px;
+        text-align: center;
+    }
 }

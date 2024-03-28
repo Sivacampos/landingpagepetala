@@ -28,3 +28,28 @@ function sendwhatsapp(){
 %0A Qual o seu e-mail %0A " + email + ""
 %0A Qual é o seu telefone ? %0A " + telefone + ""
 %0A Uma cotação para quantas vidas ? %0A" + exampleFormControlSelect1 + "*/
+
+
+const planosaude = document.querySelector('#planoSaude')
+const modal = document.querySelector('dialog')
+const buttonClose = document.querySelector("dialog button")
+let status = 'fechado'
+
+
+planosaude.onclick = function () {
+    if (status == 'fechado') {
+     modal.style.display = "block";
+     status = 'aberto'
+     console.log('abrimos')
+    }
+    else {
+        modal.style.display = "none"
+        status = 'fechado'
+        console.log('fechamos')
+    }
+    
+}
+
+/*planosaude.addEventListener('click', () => {
+    modal.show();
+})*/
