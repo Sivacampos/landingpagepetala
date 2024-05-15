@@ -8,8 +8,7 @@
 body{
     align-items: center;
     justify-content: center;
-    width: 800px;
-    margin: 0 45vh 0 45vh;
+    
 }
 
 #menu{
@@ -86,12 +85,11 @@ ul li a:hover::before{
 
 #logo{
     display: flex;
-    width: 800px;
     justify-content: center;
 }
 
 #imgLogo{
-    width: 300px;
+    width: 450px;
     margin-top: 15px;
     margin-bottom: 15px;
     align-items: center;
@@ -117,13 +115,15 @@ ul li a:hover::before{
 }
 
 #servicesTitle{
-    width: 800px;
     display: flex;
     justify-content: center;
 }
 
 .servicesTitle{
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 #homeServices{
@@ -146,10 +146,11 @@ ul li a:hover::before{
 }
 
 #meusServicos{
-  width: 800px;
-  height: 795px;
-  background-color: #c8c8e6;
-  margin-bottom: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 795px;
+    background-color: #c8c8e6;
+    margin-bottom: 50px;
 }
 
 #meusServicos h2{
@@ -167,6 +168,8 @@ ul li a:hover::before{
 }
 
 #titleDepoimentos{
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: center;
     background-color: #69ee70;
 }
@@ -183,26 +186,48 @@ ul li a:hover::before{
 }
 
 #centro{
+    margin-left: 15%;
+    margin-right: 15%;
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
     background-color: #d4ffd6;
     margin-bottom: 40px;
     height: 670px;
 }
 
+#centro2{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-areas: "foto foto1" "foto foto2" "foto foto3";
+
+    gap: 20px;    
+}
+
+.fotoDepoi2{
+    grid-area: foto;
+}
+.depoi1{
+    grid-area: foto1;
+}
+.depoi2{
+    grid-area: foto2;
+}
+.depoi3{
+    grid-area: foto3;
+}
+
 #fotoDepoi{
     z-index: 1;
     align-items:end;
-    background-color: aqua;
-    border-radius: 50%;
-    margin-top: 50%;
+    margin-top: 12%;
     margin-left: 10px;
+
     
 }
 
 .fotoDepoi{
     margin-left: 27px;
-    width: 300px;
+    width: 500px;
     border-radius: 90px;
 }
 
@@ -216,7 +241,8 @@ ul li a:hover::before{
 }
 
 #forms{
-    width: 800px;
+    margin-left: 15%;
+    margin-right: 15%;
     align-items: center;
     text-align: center;
     margin-bottom: 100px;
@@ -228,19 +254,26 @@ ul li a:hover::before{
 }
 
 .forms{
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 10px;
+    align-items: center;
 }
 
 .form, input{
+    font-size: 20px;
+    height: 50px;
     padding: 5px;
     background-color: #e7e7ed;
-    width: 400px;
+    width: 550px;
     min-height: 30px;
     border-radius: 5px;
     border: none;
 }
 
 .form, select{
+    font-size: 20px;
+    height: 50px;
     padding: 5px;
     background-color: #e7e7ed;
     width: 400px;
@@ -266,10 +299,14 @@ button{
     cursor: pointer;
     }
 
+ #whatsapp{
+    align-items: center;
+
+ }  
+
 .whats{
     width: 50px;
     position: fixed;
-    margin-right: 38vh;
     bottom: 30px;
     right: 30px;
     z-index: 9999;
@@ -289,7 +326,7 @@ dialog{
 
 
     body{
-        width: 390px;
+        width: 100%;
         margin-left: 0;
         margin: 0;
     }
@@ -297,12 +334,12 @@ dialog{
 
     #logo{
         align-items: center;
-        width: 390px;
+        width: 100%;
 
     }
 
     #menu{
-        width: 390px;
+        width: 100%;
     }
 
     #apresenta{
@@ -315,7 +352,7 @@ dialog{
     }
 
     #homeTop{
-        width: 390px;
+        width: 100%;
     }
 
     .homeTop{
@@ -328,25 +365,36 @@ dialog{
     }
 
     #servicesTitle{
+        align-items: center;
         font-size: 30px;
-        width: 390px;
+        width: 100%;
     }
 
     .servicesTitle{
-        width: 390px;
+        margin: 0;
+        width: 100%;
+        align-items: center;
     }
 
     #services{
-        width: 390px;
-        margin: 0;
-        margin-top: 10px;
+        width: 100%;
+        /*margin: 0;
+        margin-top: 10px;*/
         display: grid;
-        grid-auto-flow:row;
+        grid-template-columns: repeat(auto-fill, minmax(118px, 1fr));
+        grid
+        
+        /*display: flex;
+        text-align: center;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-auto-flow:row;*/
     }
 
     ul li{
-        margin: 0 6px;
+        margin: 0px 6px;
     }
 
     ul li a{
@@ -355,10 +403,13 @@ dialog{
 
     .iconClass{
         margin-top: 10px;
+        
     }
 
     #meusServicos{
-        width: 390px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
         height: 600px;
         margin-bottom: 50px;
     }
@@ -373,26 +424,32 @@ dialog{
     }
 
     #titleDepoimentos{
-        width: 390px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
     }
 
     #centro{
-        width: 390px;
+        margin: 0;
     }
 
     .centro{
-        width: 0;
+        width: 0px;
+    }
+
+    #fotoDepoi{
+        width: 0px;
     }
 
     .fotoDepoi{
-        width: 0;
+        width: 0px;
     }
 
     #tagDepoi{
-        width: 390px;
-        display: grid;
-        grid-auto-flow:row;
-        justify-content: center; 
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .depoi{
@@ -401,13 +458,25 @@ dialog{
         
     }
 
+    #forms h2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     #forms{
-        width: 390px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
     }
 
     .forms input{
-        width: 350px;
         height: 45px;
+        width: 380px;
+    }
+
+    .forms{
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .sevices{
@@ -416,7 +485,15 @@ dialog{
     }
 
     #whatsapp{
-        width: 390px;
+        width: 100%;
+        display: flex;
+        align-items: end;
+        text-align: end;
+    }
+
+    #whatsapp img{
+        display: flex;
+        align-items: end;
     }
 
     .whats{
@@ -427,6 +504,7 @@ dialog{
         left: 30px;
         z-index: 1;
         cursor: pointer;
+        margin: 0;
     }
 
     dialog{

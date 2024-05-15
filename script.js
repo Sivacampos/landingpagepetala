@@ -10,11 +10,11 @@ function sendwhatsapp(){
 
    
     var url = "http://wa.me/"+whatsapp+"?text="
-    +"Obrigada pelos dados, breve entrarei em contato!"
+    +"Olá Pétala, vi seu anúncio e gostaria de mais informações!"
     +"*Nome :* " +name+"%0a"
     +"*Telefone :* " +phone+"%0a"
     +"*Email :* " +email+"%0a"
-    +"*Seviços :* " +sevices+"%0a";
+    +"*Seviços :* " +sevices+"%0a"
     +"Em breve entrarei em contato!"
 
 
