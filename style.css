@@ -333,7 +333,36 @@ dialog{
     align-items: center;
     border: none;
     border-radius: 10px;
-    background-color: rgb(197, 235, 251);
+    background-color: rgb(194, 177, 216);
+}
+
+#footer{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 50px 50px ;
+    grid-template-areas: "rede rede1" "pety pety";
+    justify-items: center;
+    justify-self: center;
+    background-color: #bdcfce;
+    height: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.footerWhats{
+    grid-area: rede;
+}
+.footerInstagram{
+    grid-area: rede1;
+}
+.pety{
+    text-align: center;
+    margin-bottom: 20px;
+    grid-area: pety;
+}
+
+#footer img{
+   width: 50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -543,4 +572,10 @@ dialog{
         width: 350px;
         text-align: center;
     }
+
+    #footer{
+        width: 100%;
+        margin: 0;
+    }
+
 }
